@@ -1,0 +1,16 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec npx ts-node index.ts",
+    "staging": "nodemon --exec npx ts-node index.ts",
+    "prod": "nodemon --exec npx ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
